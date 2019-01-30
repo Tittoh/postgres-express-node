@@ -1,0 +1,20 @@
+{
+  "development": {
+    "username": "tittoh",
+    "password": null,
+    "database": "todos-dev",
+    "host": "127.0.0.1",
+    "port": "5432",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "test": {
+    "username": "tittoh",
+    "password": null,
+    "database": "todos-test",
+    "host": "127.0.0.1",
+    "port": "5432",
+    "dialect": "postgres",
+    "logging": false
+  }
+}
