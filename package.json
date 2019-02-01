@@ -10,14 +10,18 @@
     "pg": "^4.5.7",
     "pg-hstore": "^2.3.2",
     "sequelize": "^3.34.0",
-    "sequelize-cli": "^2.1.0"
+    "sequelize-cli": "^5.4.0"
   },
   "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^5.2.0",
     "nodemon": "^1.18.9"
   },
   "scripts": {
+    "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test sequelize db:migrate && mocha --exit"
   },
   "repository": {
     "type": "git",

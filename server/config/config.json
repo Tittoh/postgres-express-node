@@ -1,6 +1,6 @@
 {
   "development": {
-    "username": "tittoh",
+    "username": "postgres",
     "password": null,
     "database": "todos-dev",
     "host": "127.0.0.1",
@@ -9,9 +9,9 @@
     "logging": false
   },
   "test": {
-    "username": "tittoh",
+    "username": "postgres",
     "password": null,
-    "database": "todos-test",
+    "database": "todos_test",
     "host": "127.0.0.1",
     "port": "5432",
     "dialect": "postgres",

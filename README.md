@@ -1,4 +1,4 @@
-# Todo API
+# Todo API [![Build Status](https://travis-ci.com/Tittoh/postgres-express-node.svg?branch=master)](https://travis-ci.com/Tittoh/postgres-express-node)
 
 Todo API.
 
@@ -11,7 +11,13 @@ Todo API.
 
 `npm install` install the required node modules
 
-`npm run dev` run the app.
+`sequelize db:migrate` create the necessary tables
+
+`npm run dev` run the app in developer mode where it restarts when a file is saved.
+
+`npm start` Start the app
+
+`npm test` run the tests
 
 # Endpoints
 

@@ -1,5 +1,13 @@
 language: node_js
 node_js:
-  - "8.9.4"
+  - "stable"
+services:
+  - postgresql
+before_script:
+  - psql -c 'create database todos_test;' -U postgres
 script:
   - npm install
+  - npm test
+cache:
+  directories:
+    - "node_modules"
