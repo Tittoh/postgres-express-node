@@ -1,4 +1,4 @@
-# Todo API [![Build Status](https://travis-ci.com/Tittoh/postgres-express-node.svg?branch=master)](https://travis-ci.com/Tittoh/postgres-express-node)
+# Todo API [![Build Status](https://travis-ci.com/Tittoh/postgres-express-node.svg?branch=master)](https://travis-ci.com/Tittoh/postgres-express-node) [![Coverage Status](https://coveralls.io/repos/github/Tittoh/postgres-express-node/badge.svg?branch=master)](https://coveralls.io/github/Tittoh/postgres-express-node?branch=master) [![Test Coverage](https://api.codeclimate.com/v1/badges/56d8004a11a107c9d7e5/test_coverage)](https://codeclimate.com/github/Tittoh/postgres-express-node/test_coverage) [![Maintainability](https://api.codeclimate.com/v1/badges/56d8004a11a107c9d7e5/maintainability)](https://codeclimate.com/github/Tittoh/postgres-express-node/maintainability)
 
 Todo API.
 
