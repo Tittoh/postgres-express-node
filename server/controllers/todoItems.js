@@ -20,7 +20,7 @@ module.exports = {
       })
       .then(todoItem => {
         if (!todoItem) {
-          return res.status(400).send({
+          return res.status(404).send({
             message: 'Todo Item not found'
           });
         }
@@ -41,7 +41,7 @@ module.exports = {
       })
       .then(todoItem => {
         if(!todoItem) {
-          return res.status(400).send({
+          return res.status(404).send({
             message: 'Todo Item not found',
           });
         }
